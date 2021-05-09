@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0">
+    <title>
+    Fx 高校学生综合服务平台 学生工作管理系统 学生请假
+    </title>
+    <meta http-equiv="keywords" content="学生工作,综合服务,服务平台,信息系统,管理系统,swis"><meta http-equiv="author" content="华南师范大学,唐小煜,beaming@qq.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/right.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script src="js/jquery-1.4.2.js"></script>
+</head>
+
+
+
+<!--<body>-->
+
+<!--</body>-->
+
+<body>
+<form method="post" action="./opt_rc_wyqj.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55" id="form1">
+    <div class="aspNetHidden">
+        <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+        <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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">
+    </div>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var theForm = document.forms['form1'];
+        if (!theForm) {
+            theForm = document.form1;
+        }
+        function __doPostBack(eventTarget, eventArgument) {
+            if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                theForm.__EVENTTARGET.value = eventTarget;
+                theForm.__EVENTARGUMENT.value = eventArgument;
+                theForm.submit();
+            }
+        }
+        //]]>
+    </script>
+
+
+    <div class="container">
+        <div class="h_menu">
+            <nav>
+                <ul class="menu list-unstyled">
+                    <li><a href="\Default.aspx">首页</a>
+                        <ul>
+                            <li><a href="\showcontent.aspx?fid=0000">系统公告</a></li>
+                            <li><a href="\showcontent.aspx?fid=0099">帮助指南</a></li>
+                            <li><a href="https://ssp.scnu.edu.cn/showcontent.aspx?pid=42">联系方式</a></li>
+                            <li><a href="https://ssp.scnu.edu.cn/showcontent.aspx?pid=41">系统简介</a></li>
+                            <li><a href="\ShowStatistics.aspx">数据统计</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=7">个人信息</a>
+                        <ul>
+                            <li class="bg0"><a href="opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=7">我的应用</a></li>
+                            <li class="bg1"><a href="opt_xx_xxhz.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=7">信息汇总</a></li>
+                            <li class="bg2"><a href="opt_xx_zzgx.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=7">我的证照</a></li>
+                            <li class="bg3"><a href="opt_xx_jbxx.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=7">基本信息</a></li>
+                            <li class="bg4"><a href="opt_xx_jtxx.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=7">家庭信息</a></li>
+                            <li class="bg0"><a href="opt_xx_zhwh.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=7">账号维护</a></li>
+                            <li class="bg1"><a href="opt_xx_mylogs.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=7">我的日志</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=8">奖学助学</a>
+                        <ul>
+                            <li class="bg0"><a href="opt_jz_jzsq.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=8">奖助申请</a></li>
+                            <li class="bg1"><a href="opt_jz_jzgs.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=8">奖助公示</a></li>
+                            <li class="bg2"><a href="opt_jz_cxjsq.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=8">成果登记与评奖</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">疫情防控</a>
+                        <ul>
+                            <li class="bg0"><a href="opt_yq_lxlxdj.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">离校留校登记</a></li>
+                            <li class="bg1"><a href="opt_yq_jkdk.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">健康打卡</a></li>
+                            <li class="bg2"><a href="opt_yq_jkdkcx.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">近日打卡查询</a></li>
+                            <li class="bg3"><a href="opt_yq_fxsq.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">返校申请</a></li>
+                            <li class="bg4 selected sel act"><a href="opt_rc_wyqj.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">学生请假</a></li>
+                            <li class="bg0"><a href="opt_yq_cljxsq.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">车辆进校申请</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=129">就业服务</a>
+                        <ul>
+                            <li class="bg0"><a href="opt_jy_daqx.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=129">档案去向</a></li>
+                            <li class="bg1"><a href="opt_lx_wylx.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=129">我要离校</a></li>
+                            <li class="bg2"><a href="opt_jy_gopay.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=129">离宿缴费</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=104">智慧团建</a>
+                        <ul>
+                            <li class="bg0"><a href="opt_tw_kjxmsb.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=104">科技项目申报</a></li>
+                            <li class="bg1"><a href="opt_tw_stdj.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=104">社团申报</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=14">日常管理</a>
+                        <ul>
+                            <li class="bg0"><a href="opt_qt_lxdj.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=14">留校登记</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=130">查询统计</a>
+                        <ul>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">更多服务</a>
+                        <ul>
+                            <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=5">系统管理</a></li>
+                            <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=128">宿舍服务</a></li>
+                            <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=106">医保服务</a></li>
+                            <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=107">勤工俭学</a></li>
+                            <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=34">交互平台</a></li>
+                            <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=133">学生发展工作室</a></li>
+                            <li><a href="\opt_xx_myapps.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=179">办事大厅管理</a></li>
+                        </ul>
+                    </li>
+                    <li class="login_info">
+                        <a href="#">
+                            <img src="images/user_icon.png">
+                            <span id="logmsg">20182005012 学生</span></a>
+
+
+                        <a onclick="return confirm('确定要注销您的登录状态吗？');" id="gologout" class="submit bg2" href="javascript:__doPostBack('ctl00$gologout','')">退出登录</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="mp_main" class="mp_main">
+
+
+
+        </div>
+
+        <div id="mp_slave" class="mp_slave">
+
+            <div class="mainleft">
+                <div class="grid_sys bdorange">
+                    <img src="images/logo.png" alt="" class="logo logined_logo">
+                    <h1 class="scnu_service logined_service"><img src="images/service.png" alt="学生综合服务平台" class="service"></h1>
+                </div>
+
+
+
+
+
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="main_content grid3of4">
+                <div class="leftgrid bdblue">
+
+                    <div class="clearfix"></div>
+
+                    <ul id="left_menu" class="left_menu"><li class="0"><a href="opt_yq_lxlxdj.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">离校留校登记</a></li>
+                        <li class="1"><a href="opt_yq_jkdk.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">健康打卡</a></li>
+                        <li class="2"><a href="opt_yq_jkdkcx.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">近日打卡查询</a></li>
+                        <li class="3"><a href="opt_yq_fxsq.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">返校申请</a></li>
+                        <li class="4 selected sel act"><a href="opt_rc_wyqj.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">学生请假</a></li>
+                        <li class="0"><a href="opt_yq_cljxsq.aspx?key=RHwJbQ1oO9g6QKCk&amp;fid=55">车辆进校申请</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div class="main_right">
+                    <div class="rightgrid">
+
+
+                        <div id="right_expand" class="right_expand">
+
+                            <span id="cph_r_expand_msg_panel" class="msgstr"></span>
+
+                            <div class="linkpanel">
+                                <a id="cph_r_expand_add" href="javascript:__doPostBack('ctl00$cph_r_expand$add','')">新的假条</a>
+                                <a id="cph_r_expand_back" href="javascript:__doPostBack('ctl00$cph_r_expand$back','')">返回列表</a>
+                            </div>
+
+                        </div>
+
+                        <div id="cph_right_right_list" class="right_content">
+                            <div>
+                                <table cellspacing="0" rules="all" border="1" id="cph_right_gv1" style="border-collapse:collapse;">
+                                    <tbody><tr class="trh">
+
+<!--                                        表格头-->
+                                        <th scope="col">操作</th><th scope="col">编号</th><th scope="col">类型</th><th scope="col">开始时间</th><th scope="col">结束时间</th><th scope="col">请假课程</th><th scope="col">请假理由</th><th scope="col">是否准假</th><th scope="col">是否销假</th><th scope="col">假条状态</th>
+                                    </tr>
+
+                                    <tr class="tr0">
+                                        <td>
+                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_39" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl41$Delete','')">删除</a>
+                                        </td>
+                                        <td>191686</td>
+                                        <td>事假</td>
+                                        <td>2021/1/25 12:00:00</td>
+                                        <td>2021/1/27 20:00:00</td>
+                                        <td>无</td><td>去玩</td>
+                                        <td>
+                                            <span class="aspNetDisabled" title="是否准假">
+                                                <input id="cph_right_gv1_ctl00_39" type="checkbox" name="ctl00$cph_right$gv1$ctl41$ctl00" checked="checked" disabled="disabled">
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="aspNetDisabled" title="是否销假">
+                                                <input id="cph_right_gv1_ctl01_39" type="checkbox" name="ctl00$cph_right$gv1$ctl41$ctl01" disabled="disabled">
+                                            </span>
+                                        </td>
+                                        <td>已审核</td>
+                                    </tr>
+                                    <tr class="tr1">
+                                        <td>
+                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_40" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl42$Delete','')">删除</a>
+                                        </td>
+                                        <td>191687</td>
+                                        <td>事假</td>
+                                        <td>2021/1/27 12:00:00</td>
+                                        <td>2021/1/30 20:00:00</td>
+                                        <td>无</td><td>去玩</td>
+                                        <td>
+                                            <span class="aspNetDisabled" title="是否准假">
+                                                <input id="cph_right_gv1_ctl00_40" type="checkbox" name="ctl00$cph_right$gv1$ctl42$ctl00" checked="checked" disabled="disabled">
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="aspNetDisabled" title="是否销假">
+                                                <input id="cph_right_gv1_ctl01_40" type="checkbox" name="ctl00$cph_right$gv1$ctl42$ctl01" disabled="disabled">
+                                            </span>
+                                        </td>
+                                        <td>已审核</td>
+
+                                        <script>
+                                            var x = 1;
+                                            var y=5;
+                                            var rand = parseInt(Math.random() * (y-x+1)+x);
+
+                                            // 获取时间
+                                            var myDate = new Date();
+                                            var $year = myDate.getFullYear();
+                                            var $month = myDate.getMonth()+1;
+                                            var $date = myDate.getDate();
+                                            for (var i=0;i<rand;i++)
+                                            {
+                                                $(".tr1").after('<tr class="tr0">\n' +
+                                                    '                                        <td>\n' +
+                                                    '                                            <a onclick="return confirm(\'注意：只能删除[未审批]的记录\\n\\n您确定要删除这一项吗？\');" id="cph_right_gv1_Delete_39" href="javascript:__doPostBack(\'ctl00$cph_right$gv1$ctl41$Delete\',\'\')">删除</a>\n' +
+                                                    '                                        </td>\n' +
+                                                    '                                        <td>191686</td>\n' +
+                                                    '                                        <td>事假</td>\n' +
+                                                    '                                        <td>'+$year+'/'+$month+'/'+$date+' 8:00:00</td>\n' +
+                                                    '                                        <td>'+$year+'/'+$month+'/'+$date+' 22:00:00</td>\n' +
+                                                    '                                        <td>无</td><td>去阳光购买物资</td>\n' +
+                                                    '                                        <td>\n' +
+                                                    '                                            <span class="aspNetDisabled" title="是否准假">\n' +
+                                                    '                                                <input id="cph_right_gv1_ctl00_39" type="checkbox" name="ctl00$cph_right$gv1$ctl41$ctl00" checked="checked" disabled="disabled">\n' +
+                                                    '                                            </span>\n' +
+                                                    '                                        </td>\n' +
+                                                    '                                        <td>\n' +
+                                                    '                                            <span class="aspNetDisabled" title="是否销假">\n' +
+                                                    '                                                <input id="cph_right_gv1_ctl01_39" type="checkbox" name="ctl00$cph_right$gv1$ctl41$ctl01" disabled="disabled">\n' +
+                                                    '                                            </span>\n' +
+                                                    '                                        </td>\n' +
+                                                    '                                        <td>已审核</td>\n' +
+                                                    '                                    </tr>')
+                                            }
+                                        </script>
+<!--                                    </tr><tr class="tr0">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_41" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl43$Delete','')">删除</a>-->
+<!--                                        </td><td>192169</td><td>事假</td><td>2021/1/26 7:00:00</td><td>2021/1/28 22:00:00</td><td>无</td><td>去三水练车</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_41" type="checkbox" name="ctl00$cph_right$gv1$ctl43$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_41" type="checkbox" name="ctl00$cph_right$gv1$ctl43$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+<!--                                    </tr><tr class="tr1">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_42" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl44$Delete','')">删除</a>-->
+<!--                                        </td><td>192177</td><td>事假</td><td>2020/1/24 7:00:00</td><td>2020/1/26 22:00:00</td><td>无</td><td>去练车</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_42" type="checkbox" name="ctl00$cph_right$gv1$ctl44$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_42" type="checkbox" name="ctl00$cph_right$gv1$ctl44$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+<!--                                    </tr><tr class="tr0">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_43" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl45$Delete','')">删除</a>-->
+<!--                                        </td><td>192178</td><td>事假</td><td>2020/1/26 7:00:00</td><td>2020/1/28 22:00:00</td><td>无</td><td>去练车</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_43" type="checkbox" name="ctl00$cph_right$gv1$ctl45$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_43" type="checkbox" name="ctl00$cph_right$gv1$ctl45$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+<!--                                    </tr><tr class="tr1">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_44" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl46$Delete','')">删除</a>-->
+<!--                                        </td><td>192179</td><td>事假</td><td>2020/1/29 7:00:00</td><td>2020/1/31 22:00:00</td><td>无</td><td>去练车</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_44" type="checkbox" name="ctl00$cph_right$gv1$ctl46$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_44" type="checkbox" name="ctl00$cph_right$gv1$ctl46$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+<!--                                    </tr><tr class="tr0">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_45" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl47$Delete','')">删除</a>-->
+<!--                                        </td><td>195629</td><td>事假</td><td>2021/2/26 20:00:00</td><td>2021/2/26 22:00:00</td><td>无</td><td>外出购买物资</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_45" type="checkbox" name="ctl00$cph_right$gv1$ctl47$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_45" type="checkbox" name="ctl00$cph_right$gv1$ctl47$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+<!--                                    </tr><tr class="tr1">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_46" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl48$Delete','')">删除</a>-->
+<!--                                        </td><td>195630</td><td>事假</td><td>2021/2/27 20:00:00</td><td>2021/2/27 22:00:00</td><td>无</td><td>外出购买物资</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_46" type="checkbox" name="ctl00$cph_right$gv1$ctl48$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_46" type="checkbox" name="ctl00$cph_right$gv1$ctl48$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+<!--                                    </tr><tr class="tr0">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_47" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl49$Delete','')">删除</a>-->
+<!--                                        </td><td>195631</td><td>事假</td><td>2021/2/28 20:00:00</td><td>2021/2/28 22:00:00</td><td>无</td><td>外出购买物资</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_47" type="checkbox" name="ctl00$cph_right$gv1$ctl49$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_47" type="checkbox" name="ctl00$cph_right$gv1$ctl49$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+<!--                                    </tr><tr class="tr1">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_48" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl50$Delete','')">删除</a>-->
+<!--                                        </td><td>237129</td><td>事假</td><td>2021/5/7 10:00:00</td><td>2021/5/7 20:00:00</td><td>无</td><td>买东西</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_48" type="checkbox" name="ctl00$cph_right$gv1$ctl50$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_48" type="checkbox" name="ctl00$cph_right$gv1$ctl50$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+<!--                                    </tr><tr class="tr0">-->
+<!--                                        <td>-->
+<!--                                            <a onclick="return confirm('注意：只能删除[未审批]的记录\n\n您确定要删除这一项吗？');" id="cph_right_gv1_Delete_49" href="javascript:__doPostBack('ctl00$cph_right$gv1$ctl51$Delete','')">删除</a>-->
+<!--                                        </td><td>237130</td><td>事假</td><td>2021/5/8 10:00:00</td><td>2021/5/8 20:00:00</td><td>无</td><td>买东西</td><td><span class="aspNetDisabled" title="是否准假"><input id="cph_right_gv1_ctl00_49" type="checkbox" name="ctl00$cph_right$gv1$ctl51$ctl00" checked="checked" disabled="disabled"></span></td><td><span class="aspNetDisabled" title="是否销假"><input id="cph_right_gv1_ctl01_49" type="checkbox" name="ctl00$cph_right$gv1$ctl51$ctl01" disabled="disabled"></span></td><td>已审核</td>-->
+
+<!--                                    表格末尾-->
+                                    </tr><tr class="trh pagerstyle">
+                                        <td colspan="10"><table>
+                                            <tbody><tr>
+                                                <td><span>1</span></td><td><a href="javascript:__doPostBack('ctl00$cph_right$gv1','Page$2')">2</a></td>
+                                            </tr>
+                                            </tbody></table></td>
+                                    </tr>
+                                    </tbody></table>
+                            </div>
+
+
+                            <div class="r_bottom">
+                                <div>共找到 <span id="cph_right_recordcount">51</span> 条记录</div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="clearfix"></div>
+                        <span id="SysErrMsg" class="msgstr"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clearfix"></div>
+
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="copy">
+            <div id="footright">
+                <div><span id="msg_sysinf">Fx 高校学生综合服务平台 学生工作管理系统 粤ICP备05008875号</span></div>
+                <div><span id="msg_unitinf">单位联系方式:广州市天河区华南师范大学学生工作处|研究生院</span></div>
+                <div><span id="msg_copyright">版权所有:华南师范大学 <a href="mailto:15034508@qq.com">唐小煜</a> 登记证:2010SR038042</span></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aspNetHidden">
+
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="7E3672E4">
+        <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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">
+    </div></form>
+
+
+
+</body>
+
+
+</html>
+
